@@ -1,0 +1,11 @@
+<div class="main-wrapper">
+  <ul>
+    <li routerLink="/chatHistory" *ngFor="let user of users">
+      <img src="{{ user.image }}">
+      <span>
+        <p>{{ user.name }}</p>
+        <p class="user-last-message">{{ user.lastmessage }}</p>
+      </span>
+    </li>
+  </ul>
+</div>
