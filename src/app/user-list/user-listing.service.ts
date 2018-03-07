@@ -6,7 +6,7 @@ import { Observable } from "rxjs/Observable";
 
 export class UserListingService {
 
-  public JSONstring: string = './assets/db.json';
+  public JSONstring: string = 'http://localhost:3201/userlist';
 
   constructor(private http: Http) { }
 

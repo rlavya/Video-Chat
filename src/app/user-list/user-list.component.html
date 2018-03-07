@@ -1,6 +1,6 @@
 <div class="main-wrapper">
   <ul>
-    <li routerLink="/chatHistory" *ngFor="let user of users">
+    <li routerLink="/chatHistory/{{user.userid}}" *ngFor="let user of users">
       <img src="{{ user.image }}">
       <span>
         <p>{{ user.name }}</p>

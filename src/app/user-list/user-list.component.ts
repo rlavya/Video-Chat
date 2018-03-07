@@ -12,10 +12,9 @@ export class UserListComponent implements OnInit {
   constructor(private userlist : UserListingService) { }
 
    ngOnInit(){
-
         this.userlist.getAll().then((data: Array<object>) => {
-          this.users = data.userlist
+          this.users = data;
         })
-   });
+   }
 
 }

@@ -14,7 +14,7 @@ const routes: Routes = [
     component: UserListComponent
   },
   {
-    path: 'chatHistory',
+    path: 'chatHistory/:id',
     component: ChatHistoryComponent
   }
 ];
