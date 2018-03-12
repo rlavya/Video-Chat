@@ -1,79 +1,72 @@
 {
-	"userlist": [{
-			"id": 1,
-  			"userid": 21,
-			"name": "Name 1",
-			"image": "/assets/images/defaultuser.png",
-			"lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
-		},
-		{
-			"id": 2,
-			"userid": 22,
-			"name": "Name 2",
-			"image": "/assets/images/defaultuser.png",
-			"lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
-		},
-		{
-			"id": 3,
-			"userid": 23,
-			"name": "Name 3",
-			"image": "/assets/images/defaultuser.png",
-			"lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
-		},
-		{
-			"id": 4,
-			"userid": 24,
-			"name": "Name 4",
-			"image": "/assets/images/defaultuser.png",
-			"lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
-		},
-		{
-			"id": 5,
-			"userid": 25,
-			"name": "Name 5",
-			"image": "/assets/images/defaultuser.png",
-			"lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
-		},
-		{
-			"id": 6,
-			"userid": 26,
-			"name": "Name 6",
-			"image": "/assets/images/defaultuser.png",
-			"lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
-		},
-		{
-			"id": 7,
-			"userid": 27,
-			"name": "Name 7",
-			"image": "/assets/images/defaultuser.png",
-			"lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
-		}
-	],
-	"chatlist": [
-    {
-			"id": 1,
-			"userid": 27,
-      "room": 1,
-			"msg": "Hello"
+    "userlist": [{
+        "id": 1,
+        "userid": 21,
+        "name": "Name 1",
+        "image": "/assets/images/defaultuser.png",
+        "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    }, {
+        "id": 2,
+        "userid": 22,
+        "name": "Name 2",
+        "image": "/assets/images/defaultuser.png",
+        "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    }, {
+        "id": 3,
+        "userid": 23,
+        "name": "Name 3",
+        "image": "/assets/images/defaultuser.png",
+        "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    }, {
+        "id": 4,
+        "userid": 24,
+        "name": "Name 4",
+        "image": "/assets/images/defaultuser.png",
+        "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    }, {
+        "id": 5,
+        "userid": 25,
+        "name": "Name 5",
+        "image": "/assets/images/defaultuser.png",
+        "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    }, {
+        "id": 6,
+        "userid": 26,
+        "name": "Name 6",
+        "image": "/assets/images/defaultuser.png",
+        "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    }, {
+        "id": 7,
+        "userid": 27,
+        "name": "Name 7",
+        "image": "/assets/images/defaultuser.png",
+        "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    }],
+    "chatlist": [{
+        "id": 1,
+        "userid": 27,
+        "room": 1,
+        "msg": "Hello",
+        "image": "/assets/images/defaultuser.png"
 
-		},
-		{
-			"id": 2,
-			"userid": 27,
-      "room": 1,
-			"msg": "Hi"
-		},
-		{
-			"id": 3,
-			"userid": 27,
-      "room": 1,
-			"msg": "How are you?"
-		},
-		{
-			"id": 4,
-			"userid": 26,
-      "room": 1,
-			"msg": "Hello"
-		}
-	]
+
+    }, {
+        "id": 2,
+        "userid": 27,
+        "room": 1,
+        "msg": "Hi",
+        "image": "/assets/images/defaultuser.png"
+    }, {
+        "id": 3,
+        "userid": 26,
+        "room": 1,
+        "msg": "How are you?",
+        "image": "/assets/images/defaultuser.png"
+    }, {
+        "id": 4,
+        "userid": 26,
+        "room": 2,
+        "msg": "Hello",
+        "image": "/assets/images/defaultuser.png"
+    }]
 }

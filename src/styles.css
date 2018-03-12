@@ -7,7 +7,7 @@ html {
   background: #ddd;
 }
 
-ul {
+ul, ol {
   list-style: none;
   padding: 0;
 }

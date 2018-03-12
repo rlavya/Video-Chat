@@ -7,7 +7,28 @@
   </section>
   <section class="chat">
     <ol>
-      <li class="self-chat">
+
+      <li *ngFor="let chat of chats">
+        <div *ngIf="chat.room == 1">
+          
+        
+
+        <div *ngIf="chat.userid != 26" class="user-chat">
+            <div class="user-image"><img src="{{ chat.image }}"></div>
+            <div class="msg">
+              <p>{{ chat.msg }}</p>
+            </div>
+        </div>
+        <div *ngIf="chat.userid == 26" class="self-chat">
+            <div class="user-image"><img src="{{ chat.image }}"></div>
+            <div class="msg">
+              <p>{{ chat.msg }}</p>
+            </div>
+        </div>
+        </div>
+      </li>
+
+      <!-- <li class="self-chat">
         <div class="user-image"><img src="/assets/images/defaultuser.png"></div>
         <div class="msg">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit</p>
@@ -42,7 +63,7 @@
         <div class="msg">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit</p>
         </div>
-      </li>
+      </li> -->
     </ol>
     <input class="chat-box" type="text" placeholder="Type here!"/>
   </section>
