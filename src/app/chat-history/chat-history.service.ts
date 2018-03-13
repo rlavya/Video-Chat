@@ -6,12 +6,12 @@ import { Observable } from "rxjs/Observable";
 
 export class ChatHistoryService {
 
-  public JSONstring: string = 'http://localhost:3201/chatlist';
+  private chatlistJSON: string = 'http://localhost:3000/chatlist';
 
   constructor(private http: Http) { }
 
   public getchatlist(): Promise<Object> {
-    return this.http.get(this.JSONstring)
+    return this.http.get(this.chatlistJSON)
       .toPromise()
       .then((response) => {
         return response.json();

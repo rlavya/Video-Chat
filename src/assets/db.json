@@ -68,5 +68,48 @@
         "room": 2,
         "msg": "Hello",
         "image": "/assets/images/defaultuser.png"
+    }],
+    "loginCredentials": [{
+        "id": 1,
+        "userid": 21,
+        "email": "lavya@qburst.com",
+        "username": "Name 1",
+        "password": "qburst"
+    },{
+        "id": 2,
+        "userid": 22,
+        "email": "nishin@qburst.com",
+        "username": "Name 2",
+        "password": "qburst"
+    },{
+        "id": 3,
+        "userid": 23,
+        "email": "gayathri@qburst.com",
+        "username": "Name 3",
+        "password": "qburst"
+    },{
+        "id": 4,
+        "userid": 24,
+        "email": "anjana@qburst.com",
+        "username": "Name 4",
+        "password": "qburst"
+    },{
+        "id": 5,
+        "userid": 25,
+        "email": "finidi@qburst.com",
+        "username": "Name 5",
+        "password": "qburst"
+    },{
+        "id": 6,
+        "userid": 26,
+        "email": "abraham@qburst.com",
+        "username": "Name 6",
+        "password": "qburst"
+    },{
+        "id": 7,
+        "userid": 26,
+        "email": "reshma@qburst.com",
+        "username": "Name 7",
+        "password": "qburst"
     }]
 }

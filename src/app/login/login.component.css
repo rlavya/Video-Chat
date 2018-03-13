@@ -5,7 +5,7 @@ html {
   padding: 0;
 }
 
-.form-signin {
+.loginForm {
   width: 280px;
   text-align: center;
   padding: 20px;
@@ -13,13 +13,13 @@ html {
   background: #fff;
 }
 
-.form-signin .form-signin-heading {
+.loginForm .login-heading {
   text-transform: uppercase;
   font-weight: 200;
   color: #CB3334;
 }
 
-.form-signin input {
+.loginForm input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -42,7 +42,7 @@ html {
   font-weight: 300;
 }
 
-.form-signin button {
+.loginForm button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -62,17 +62,17 @@ html {
   margin: 10px auto;
 }
 @media (max-width: 480px) {
-  .form-signin {
+  .loginForm {
     padding: 10px;
     width: auto;
     margin: 30px 10px;
   }
 
-  .form-signin input {
+  .loginForm input {
     width: 210px;
   }
 
-  .form-signin button {
+  .loginForm button {
     width: 240px;
   }
 }

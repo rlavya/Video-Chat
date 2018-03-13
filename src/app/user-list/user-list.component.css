@@ -18,7 +18,6 @@
 }
 
 .main-wrapper li span {
-  display: inline-block;
   float: left;
   max-width: calc(100% - 100px);
   padding-left: 10px;

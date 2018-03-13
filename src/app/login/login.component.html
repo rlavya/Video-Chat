@@ -1,8 +1,8 @@
 <div class="wrapper">
-  <form class="form-signin">
-    <h2 class="form-signin-heading">Login</h2>
-    <input type="text" name="username" placeholder="Email Address" required="" autofocus="" />
-    <input type="password" name="password" placeholder="Password" required=""/>
+  <form class="loginForm" (submit)="loginUser($event)">
+    <h2 class="login-heading">Login</h2>
+    <input type="text" name="username" placeholder="Email Address" required="" autofocus="">
+    <input type="password" name="password" placeholder="Password" required="">
     <button type="submit">Login</button>
   </form>
 </div>
