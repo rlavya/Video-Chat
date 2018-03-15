@@ -34,6 +34,13 @@ ul, ol {
   background: #ddd;
   border-color: #ddd;
 }
+
+.errors, .errors p {
+  text-align: left;
+  color: red;
+  margin: 0;
+}
+
 @media (max-width: 480px) {
   .main-wrapper {
     margin: 25px 20px;
