@@ -1,0 +1,27 @@
+#header {
+  color: black;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #e3e3e3;
+  text-align: center;
+}
+#header img {
+    float: left;
+    padding: 20px;
+}
+header p {
+  display: inline-block;
+  text-indent: -70px;
+}
+.log_out {
+  display: none;
+}
+.log_out {
+  float: right;
+  color: #CB3334;
+  font-size: 18px;
+  text-decoration: underline;
+  vertical-align: middle;
+  padding: 10px;
+  cursor: pointer;
+}
