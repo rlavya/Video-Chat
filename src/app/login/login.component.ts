@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
   email: FormControl;
   password: FormControl;
   formSubmitted = false;
-
+  correctpswd = false;
   ngOnInit() {
     this.createFormControls();
     this.createForm();
@@ -51,9 +51,11 @@ export class LoginComponent implements OnInit {
       this.login.getUserList().then((data: Array<object>) => {
         for (let i = 0; i < data.length; i++) {
           if (data[i]['email'] === username && data[i]['password'] === password) {
-                this.login.setUserLoggedIn();
-                this.router.navigate(['/userList']);
-            }
+              this.login.setUserLoggedIn();
+              this.router.navigate(['/userList']);
+          } else {
+              this.correctpswd = true;
+          }
         }
       });
       return false;

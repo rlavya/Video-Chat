@@ -16,6 +16,7 @@
           <p *ngIf="password.errors.required">Password is required</p>
           <p *ngIf="password.errors.minlength">Password must be 8 characters long</p>
         </div>
+        <p *ngIf="!password.errors && correctpswd && formSubmitted">Enter correct email or password</p>
     </div>
     <button type="submit">Login</button>
   </form>

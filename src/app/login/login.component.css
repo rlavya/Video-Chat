@@ -61,6 +61,12 @@ html {
   font-size: 18px;
   margin: 10px auto;
 }
+
+.loginForm .form-group p {
+    text-align: left;
+    color: red;
+    margin: 0;
+}
 @media (max-width: 480px) {
   .loginForm {
     padding: 10px;
