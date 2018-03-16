@@ -10,7 +10,7 @@ import { UserListComponent } from './user-list/user-list.component';
 import { ChatHistoryComponent } from './chat-history/chat-history.component';
 import { LoginService } from './login/login.service';
 import { AuthguardGuard } from './authguard.guard';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './shared/layout/header/header.component';
 
 @NgModule({
   declarations: [
