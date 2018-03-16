@@ -51,28 +51,46 @@
     }],
     "chatlist": [{
         "id": 1,
-        "userid": 27,
-        "room": 1,
+        "userid": 23,
         "msg": "Hello",
-        "image": "/assets/images/defaultuser.png"
+        "image": "/assets/images/defaultuser.png",
+        "chattingwith": 21
     }, {
         "id": 2,
-        "userid": 27,
-        "room": 1,
-        "msg": "Hi",
-        "image": "/assets/images/defaultuser.png"
+        "userid": 23,
+        "msg": "watsap?",
+        "image": "/assets/images/defaultuser.png",
+        "chattingwith": 21
     }, {
         "id": 3,
-        "userid": 26,
-        "room": 1,
-        "msg": "How are you?",
-        "image": "/assets/images/defaultuser.png"
+        "userid": 21,
+        "msg": "Hi",
+        "image": "/assets/images/defaultuser.png",
+        "chattingwith": 23
     }, {
         "id": 4,
+        "userid": 21,
+        "msg": "I am good :)",
+        "image": "/assets/images/defaultuser.png",
+        "chattingwith": 23
+    }, {
+        "id": 5,
+        "userid": 22,
+        "msg": "Hi",
+        "image": "/assets/images/defaultuser.png",
+        "chattingwith": 21
+    }, {
+        "id": 6,
         "userid": 26,
-        "room": 2,
+        "msg": "How are you?",
+        "image": "/assets/images/defaultuser.png",
+        "chattingwith": 21
+    }, {
+        "id": 7,
+        "userid": 26,
         "msg": "Hello",
-        "image": "/assets/images/defaultuser.png"
+        "image": "/assets/images/defaultuser.png",
+        "chattingwith": 21
     }],
     "loginCredentials": [{
         "id": 1,
@@ -112,7 +130,7 @@
         "password": "qburst"
     },{
         "id": 7,
-        "userid": 26,
+        "userid": 27,
         "email": "reshma@qburst.com",
         "username": "Name 7",
         "password": "qburst"

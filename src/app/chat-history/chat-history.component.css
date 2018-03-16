@@ -6,7 +6,7 @@
   min-height: 70px;
 }
 
-.chat-username-wrapper img {
+.chat-username-wrapper .profile-picture {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -16,6 +16,16 @@
   height: 70px;
   clear: both;
   float: left;
+}
+
+.chat-username-wrapper .videocall-img {
+  background: #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 .chat-username {
@@ -36,7 +46,7 @@
   padding: 60px 0 50px;
 }
 
-.chat li > div{
+.chat li>div {
   padding: 10px;
   overflow: hidden;
   display: flex;
@@ -61,7 +71,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .user-chat .msg {
@@ -143,6 +153,7 @@ input.chat-box {
   padding: 0 55px;
   color: #666;
 }
+
 @media (max-width: 480px) {
   .chat ol {
     padding: 0;
@@ -151,3 +162,4 @@ input.chat-box {
     margin-right: 0;
   }
 }
+
