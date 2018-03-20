@@ -29,6 +29,11 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.empty-messages {
+  text-align: center;
+}
+
 @media (max-width: 480px) {
   .main-wrapper ul li {
     padding: 10px;

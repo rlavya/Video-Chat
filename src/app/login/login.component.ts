@@ -52,6 +52,7 @@ export class LoginComponent implements OnInit {
         for (let i = 0; i < data.length; i++) {
           if (data[i]['email'] === username && data[i]['password'] === password) {
               this.login.setUserLoggedIn();
+            localStorage.setItem('id', data[i]['userid']);
               this.router.navigate(['/userList']);
           } else {
               this.correctpswd = true;
