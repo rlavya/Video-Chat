@@ -8,23 +8,27 @@
     <router-outlet></router-outlet>
   </section>
   <section class="chat">
-    <ol *ngFor="let chat of chats">
-
-      <li >
-        <div *ngIf="chat.userid != userid" class="user-chat">
-            <div class="user-image"><img src="{{ chat.image }}"></div>
-            <div class="msg">
-              <p>{{ chat.msg }}</p>
-            </div>
-        </div>
-        <div *ngIf="chat.userid == userid" class="self-chat">
-            <div class="user-image"><img src="{{ chat.image }}"></div>
-            <div class="msg">
-              <p>{{ chat.msg }}</p>
-            </div>
+    <ol>
+      <li *ngFor="let chat of chats">
+        <div *ngIf="(chat.userid == userid && chat.chattingwith == chatUserId) || (chat.chattingwith == userid && chat.userid == chatUserId)">
+          <div *ngIf="chat.userid != userid" class="user-chat chat-wrapper">
+              <div class="user-image"><img src="{{ chat.image }}"></div>
+              <div class="msg">
+                <p>{{ chat.msg }}</p>
+              </div>
+          </div>
+          <div *ngIf="chat.userid == userid" class="self-chat chat-wrapper">
+              <div class="user-image"><img src="{{ chat.image }}"></div>
+              <div class="msg">
+                <p>{{ chat.msg }}</p>
+              </div>
+          </div>
         </div>
       </li>
     </ol>
-    <input class="chat-box" type="text" placeholder="Type here!"/>
+    <div class="chat-box-wrapper">
+      <textarea class="chat-box" type="text" placeholder="Type here!" [(ngModel)]="messageText" rows="3"></textarea>
+      <button class="chat-send" (click)="sendMessage()">Send</button>
+    </div>
   </section>
 </div>
