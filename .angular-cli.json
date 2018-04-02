@@ -22,7 +22,7 @@
         "styles.css"
       ],
       "scripts": [
-        "http://cdn.peerjs.com/0.3/peer.js"
+        
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

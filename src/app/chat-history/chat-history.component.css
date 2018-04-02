@@ -45,6 +45,8 @@
   background: #f2eff2;
   padding: 60px 0 50px;
   position: relative;
+  overflow-y: scroll;
+  height: 450px;
 }
 
 .chat li .chat-wrapper {

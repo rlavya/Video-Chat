@@ -7,7 +7,7 @@
     <img src="/assets/images/videochat.png" class="videocall-img">
     <router-outlet></router-outlet>
   </section>
-  <section class="chat">
+  <section class="chat" #focusToLastMsg>
     <ol>
       <li *ngFor="let chat of chats">
         <div *ngIf="(chat.userid == userid && chat.chattingwith == chatUserId) || (chat.chattingwith == userid && chat.userid == chatUserId)">
