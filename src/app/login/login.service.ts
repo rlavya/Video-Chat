@@ -32,4 +32,14 @@ export class LoginService {
         });
     }
 
+    public getLoggedInUserDetails(id) {
+        return this.http.get(this.loginUserList + '?userid=' + id)
+            .toPromise()
+            .then((response) => {
+                return response.json();
+            }).catch((err) => {
+                console.log(err);
+            });
+    }
+
 }

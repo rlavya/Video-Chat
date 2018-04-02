@@ -1,0 +1,393 @@
+{
+  "userlist": [
+    {
+      "id": 1,
+      "userid": 21,
+      "chattingto": 22,
+      "name": "Name 1",
+      "image": "/assets/images/defaultuser.png",
+      "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    },
+    {
+      "id": 2,
+      "userid": 22,
+      "chattingto": 21,
+      "name": "Name 2",
+      "image": "/assets/images/defaultuser.png",
+      "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    },
+    {
+      "id": 3,
+      "userid": 23,
+      "chattingto": 21,
+      "name": "Name 3",
+      "image": "/assets/images/defaultuser.png",
+      "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    },
+    {
+      "id": 4,
+      "userid": 24,
+      "chattingto": 21,
+      "name": "Name 4",
+      "image": "/assets/images/defaultuser.png",
+      "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    },
+    {
+      "id": 5,
+      "userid": 25,
+      "name": "Name 5",
+      "chattingto": 21,
+      "image": "/assets/images/defaultuser.png",
+      "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    },
+    {
+      "id": 6,
+      "userid": 26,
+      "name": "Name 6",
+      "chattingto": 24,
+      "image": "/assets/images/defaultuser.png",
+      "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    },
+    {
+      "id": 7,
+      "userid": 27,
+      "chattingto": 24,
+      "name": "Name 7",
+      "image": "/assets/images/defaultuser.png",
+      "lastmessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non justo pulvinar, suscipit"
+    }
+  ],
+  "chatlist": [
+    {
+      "id": 1,
+      "userid": 23,
+      "msg": "Hello",
+      "image": "/assets/images/defaultuser.png",
+      "chattingwith": 21
+    },
+    {
+      "id": 2,
+      "userid": 23,
+      "msg": "watsap?",
+      "image": "/assets/images/defaultuser.png",
+      "chattingwith": 21
+    },
+    {
+      "id": 3,
+      "userid": 21,
+      "msg": "Hi",
+      "image": "/assets/images/defaultuser.png",
+      "chattingwith": 23
+    },
+    {
+      "id": 4,
+      "userid": 21,
+      "msg": "I am good :)",
+      "image": "/assets/images/defaultuser.png",
+      "chattingwith": 23
+    },
+    {
+      "id": 5,
+      "userid": 22,
+      "msg": "Hi",
+      "image": "/assets/images/defaultuser.png",
+      "chattingwith": 21
+    },
+    {
+      "id": 6,
+      "userid": 26,
+      "msg": "How are you?",
+      "image": "/assets/images/defaultuser.png",
+      "chattingwith": 21
+    },
+    {
+      "id": 7,
+      "userid": 26,
+      "msg": "Hello",
+      "image": "/assets/images/defaultuser.png",
+      "chattingwith": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 8,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 9,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 10,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 11,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 12,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 13,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "sadasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 14,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 15,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 16,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 17,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 18,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 19,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 20,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 21,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 22,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdas",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 23,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "asdasd",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 24,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "dsf\n",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 25,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "Hi",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 26,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "Hi",
+      "userid": 21
+    },
+    {
+      "chattingwith": 22,
+      "id": 27,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "Hello\n",
+      "userid": 21
+    },
+    {
+      "chattingwith": 24,
+      "id": 28,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "Hi\n",
+      "userid": 21
+    },
+    {
+      "chattingwith": 24,
+      "id": 29,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "Hello",
+      "userid": 21
+    },
+    {
+      "chattingwith": 23,
+      "id": 30,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "Hello\n",
+      "userid": 21
+    },
+    {
+      "chattingwith": 21,
+      "id": 31,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "Hello",
+      "userid": 22
+    },
+    {
+      "chattingwith": 21,
+      "id": 32,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "how are you",
+      "userid": 22
+    },
+    {
+      "chattingwith": 23,
+      "id": 33,
+      "image": "/assets/images/defaultuser.png",
+      "msg": "sdfhsdh dfhdh",
+      "userid": 21
+    },
+    {
+      "chattingwith": 23,
+      "id": 34,
+      "image": "/assets/images/defaultuser.png",
+      "msg": " dfgdf dfgfdg",
+      "userid": 21
+    },
+    {
+      "id": 35,
+      "msg": "sdfs sfsdf",
+      "userid": 21,
+      "chattingwith": 22,
+      "image": "/assets/images/defaultuser.png"
+    },
+    {
+      "id": 36,
+      "msg": "sdfsdf sf asd",
+      "userid": 21,
+      "chattingwith": 22,
+      "image": "/assets/images/defaultuser.png"
+    },
+    {
+      "id": 37,
+      "msg": "dfgd dfgdfh",
+      "userid": 21,
+      "chattingwith": 23,
+      "image": "/assets/images/defaultuser.png"
+    },
+    {
+      "id": 38,
+      "msg": "",
+      "userid": 21,
+      "chattingwith": 23,
+      "image": "/assets/images/defaultuser.png"
+    },
+    {
+      "id": 39,
+      "msg": "sdfas dgd fgh",
+      "userid": 21,
+      "chattingwith": 22,
+      "image": "/assets/images/defaultuser.png"
+    }
+  ],
+  "loginCredentials": [
+    {
+      "id": 1,
+      "userid": 21,
+      "email": "lavya@qburst.com",
+      "username": "Name 1",
+      "password": "qburst",
+      "image": "/assets/images/defaultuser.png"
+    },
+    {
+      "id": 2,
+      "userid": 22,
+      "email": "nishin@qburst.com",
+      "username": "Name 2",
+      "password": "qburst",
+      "image": "/assets/images/defaultuser.png"
+    },
+    {
+      "id": 3,
+      "userid": 23,
+      "email": "gayathri@qburst.com",
+      "username": "Name 3",
+      "password": "qburst",
+      "image": "/assets/images/defaultuser.png"
+    },
+    {
+      "id": 4,
+      "userid": 24,
+      "email": "anjana@qburst.com",
+      "username": "Name 4",
+      "password": "qburst",
+      "image": "/assets/images/defaultuser.png"
+    },
+    {
+      "id": 5,
+      "userid": 25,
+      "email": "finidi@qburst.com",
+      "username": "Name 5",
+      "password": "qburst",
+      "image": "/assets/images/defaultuser.png"
+    },
+    {
+      "id": 6,
+      "userid": 26,
+      "email": "abraham@qburst.com",
+      "username": "Name 6",
+      "password": "qburst",
+      "image": "/assets/images/defaultuser.png"
+    },
+    {
+      "id": 7,
+      "userid": 27,
+      "email": "reshma@qburst.com",
+      "username": "Name 7",
+      "password": "qburst",
+      "image": "/assets/images/defaultuser.png"
+    }
+  ]
+}
